@@ -1,0 +1,12 @@
+.link {
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: #282828;
+  &:hover,
+  &:focus {
+    color: #2693e6;
+  }
+}

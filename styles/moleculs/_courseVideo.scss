@@ -1,0 +1,40 @@
+.course-video {
+  color: #282828;
+  width: 100%;
+  padding-bottom: 23px;
+  &-video {
+    width: 100%;
+    height: 67vh;
+  }
+  &-heading {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    &-title-subtitle {
+      &-title {
+        font-size: 24px;
+        font-weight: 500;
+      }
+      &-subtitle {
+        color: #2693e6;
+      }
+    }
+    &-button-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+      &-action {
+        width: 100%;
+      }
+    }
+  }
+  &-tutor {
+    font-size: 14px;
+    font-weight: 500;
+    color: #282828;
+  }
+  &-role {
+    font-size: 14px;
+    color: #7d7d7d;
+  }
+}

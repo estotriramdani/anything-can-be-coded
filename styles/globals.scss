@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+@import 'moleculs/allCoursesList';
+@import 'moleculs/courseCard';
+@import 'moleculs/courseVideo';
+@import 'moleculs/myLastCourse';
+@import 'atoms/button';
+@import 'atoms/link';
+@import 'pages/learn';
+
+@import 'reset';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  // font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  //   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}

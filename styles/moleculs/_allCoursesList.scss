@@ -1,0 +1,19 @@
+.all-courses-list-item {
+  text-align: left;
+  background-color: transparent;
+  color: #7d7d7d;
+  outline: none;
+  border: none;
+  font-size: 12px;
+  transition: 0.1s;
+  cursor: pointer;
+  margin-bottom: 10px;
+  &-episode-number {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  &:hover,
+  &:focus {
+    color: #282828;
+  }
+}

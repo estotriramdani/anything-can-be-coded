@@ -1,0 +1,28 @@
+.course-card {
+  cursor: pointer;
+  &:hover {
+    .course-card-title {
+      color: #2693e6;
+    }
+  }
+  &-thumbnail {
+    width: 100%;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  &-title {
+    transition: 0.1s;
+    color: #282828;
+    padding: 0 10px 0px 10px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  &-subtitle {
+    color: #7d7d7d;
+    padding: 0 10px 10px 10px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
